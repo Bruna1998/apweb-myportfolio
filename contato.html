@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Meu Portfólio</h1>
+      <p>Bem-vindo ao meu portfólio pessoal</p>
+    </div>
+  </header>
+  
+  <nav class="menu">
+    <div>
+        <ul>
+            <li><a href="sobremim.html" target="_self">Sobre Mim</a></li>
+            <li><a href="formacao.html" target="_self">Formação Acadêmica</a></li>
+            <li><a href="projetos.html" target="_self">Portfólio</a></li>
+            <li><a href="contato.html" target="_self">Contato</a></li>
+        </ul>
+    </div>
+  </nav>
+
+
+  <section class="contato">
+    <h1 class="pro-title"><a href="contato.html">Contato</a></h1>
+    <br>
+        <div class="container-contato">
+        
+            <div class="formulario">
+                <form action="envia_formulario.php" method="post">
+            </div>
+                <div>
+                    <label for="name">Nome</label> 
+                </div>
+                    <div><input type="text" name="Nome" id="nome"></div>
+                        <br>
+                            <div>
+                                <label for="telefone">Telefone</label>
+                            </div>
+                                <div>
+                                    <input type="text" placeholder="(xx) x* xxxx-xxxx" name="telefone" id="telefone">
+                                </div>
+                                    <br>
+                                        <div>
+                                            <label for="email">E-mail</label>
+                                        </div>
+                                            <div>
+                                                <input type="email" name="e-mail" id="e-mail">
+                                            </div>       
+                                                <br>
+                                                    <div>
+                                                        <label for="mensagem">Mensagem</label>
+                                                    </div>
+                                                            <div>
+                                                                <textarea name="Mensagem" placeholder="Escreva sua mensagem" id="mensagem" rows="10" cols="50"></textarea>
+                                                            </div>
+                                                                <br>
+                                                                    <div>
+                                                                        <button type="submit" name="Enviar" id="btn-forms">Enviar</button>
+                                                                    </div>
+                            
+            </form>
+        </div>
+    </div>
+
+
+
+  </section>
+</body>
+<footer>
+    <div class="container">
+      <p>&copy; 2024 Bruna Sampaio May</p>
+    </div>
+  </footer>
+</html>
